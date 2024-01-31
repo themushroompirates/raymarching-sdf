@@ -3,6 +3,7 @@
 Written in C with [Raylib](https://www.raylib.com), this experiment provides a GUI for creating a hierarchy of 3d object descriptions.
 
 These are dynamically interpreted as SDFs and combined into an OpenGL fragment shader which displays them via raymarching.
+This is rendered with a hybrid approach so it's compatible with "normal" 3d rendering, such as the guides.
 
 Original raymarching shader and SDFs are by [Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/), with some modifications.
 
